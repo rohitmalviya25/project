@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-box">
+        <div class="search">
+            <input type="text" placeholder="enter city name">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="error">
+            invalid city name
+        </div>
+
+        <div class="content">
+            <div class="main-bar">
+                <div class="weather">
+                    <img src="c4.jpg" class="weather-icon">
+                    <h1 class="temp">27°C</h1>
+                    <h2 class="city">Bhopal</h2>
+                </div>    
+            </div>
+    
+            <div class="box">
+                <div class="humidity">
+                    <img src="humidity.png" alt="">
+                    <h2 class="humid">67%</h2>
+                    <h3>Humidity</h3>
+                </div>
+        
+                <div class="humidity">
+                    <img src="w2.png" alt="">
+                    <h2 class="speed">84 Km/h</h2>
+                    <h3 class="wind">Wind Speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
